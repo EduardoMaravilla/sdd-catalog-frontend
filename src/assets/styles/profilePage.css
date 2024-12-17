@@ -1,0 +1,10 @@
+.profile-card {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.disabled-custom {
+  background-color: #343a40 !important;
+  color: #6c757d !important;
+  border-color: #6c757d !important;
+  opacity: 1 !important;
+}

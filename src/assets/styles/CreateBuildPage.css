@@ -1,0 +1,10 @@
+.select-class:hover {
+  color: black !important;
+}
+
+.without-background {
+  background-color: transparent;
+}
+.without-background:disabled {
+  background-color: transparent;
+}

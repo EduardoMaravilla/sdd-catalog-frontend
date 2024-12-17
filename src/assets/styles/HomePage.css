@@ -1,0 +1,55 @@
+.text-color-change {
+  animation: colorCycle 10s ease-in-out infinite;
+}
+
+@keyframes colorCycle {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: yellow;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.police-lights {
+  animation: policeLightEffect 10s ease-in-out infinite alternate;
+}
+
+@keyframes policeLightEffect {
+  0% {
+    color: red;
+  }
+  13% {
+    color: aqua;
+  }
+  25% {
+    color: gold;
+  }
+  37% {
+    color: purple;
+  }
+  50% {
+    color: blue;
+  }
+  62% {
+    color: purple;
+  }
+  75% {
+    color: gold;
+  }
+  87% {
+    color: aqua;
+  }
+  100% {
+    color: red;
+  }
+}

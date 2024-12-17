@@ -1,0 +1,79 @@
+.check-icon-container {
+  animation: popIn 2s ease-out forwards;
+}
+
+.check-icon {
+  font-size: 5rem;
+  color: green;
+}
+
+.error-icon-container {
+  animation: popIn 2s ease-out forwards;
+}
+
+.error-icon {
+  font-size: 5rem;
+  color: red;
+}
+
+.save-icon-container {
+  animation: popIn 2s ease-out forwards;
+}
+
+.save-icon {
+  font-size: 5rem;
+  color: blue;
+}
+
+.reset-icon-container {
+  animation: popIn 2s ease-out forwards;
+}
+
+.reset-icon {
+  font-size: 5rem;
+  color: orange;
+}
+
+.logout-icon-container {
+  animation: popIn 2s ease-out forwards;
+}
+
+.logout-icon {
+  font-size: 5rem;
+  color: purple;
+}
+
+.update-icon-container {
+  animation: popIn 2s ease-out forwards;
+}
+
+.update-icon {
+  font-size: 5rem;
+  color: dodgerblue;
+}
+
+.delete-icon-container {
+  animation: popIn 2s ease-out forwards;
+}
+
+.delete-icon {
+  font-size: 5rem;
+  color: red;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.logo-img {
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain; 
+}

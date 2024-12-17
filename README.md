@@ -35,3 +35,35 @@ The platform will include a feature to contact the administrator and eventually 
 Provide a practical, accessible, and secure tool that facilitates the creation, management, and collaboration among [**Need for Speed Unbound**](https://www.ea.com/es-es/games/need-for-speed/need-for-speed-unbound) players, enhancing the gaming experience and fostering an active community.
 
 ---
+
+This project is a web application built using **React**, **Vite**, **TypeScript**, and **SWC**. The application provides a fast and scalable frontend that interacts with the backend via APIs.
+
+1. **React:** A JavaScript library for building user interfaces, used for creating reusable components and handling the application’s state.
+
+2. **Vite:** A build tool that aims to provide a faster and leaner development experience. It serves as the bundler for the frontend code.
+
+3. **TypeScript:** A typed superset of JavaScript that adds static types, helping developers catch errors early and improve the development experience.
+
+4. **SWC:** A fast JavaScript/TypeScript compiler that is used for transforming and minifying the code.
+
+## 🗃️ **Table of Contents**
+
+- [📦 Prerequisites](#-prerequisites)
+- [🚀 Installation](#-installation)
+- [⚙️ Configuration](#-configuration)
+- [📚 API Usage](#-api-usage)
+- [🗂 Project Structure](#-project-structure)
+- [📡 Main Endpoints](#-main-endpoints)
+- [🛠️ Technologies Used](#-technologies-used)
+- [👎 License](#-license)
+- [📞 Contact](#-contact)
+
+---
+
+## 📦 **Prerequisites**
+
+ Before setting up the project, ensure that you have the following software installed:
+ - **Node.js** (LTS version recommended): [Download Node.js](https://nodejs.org/en)
+ - **npm** or **Yarn**: Used for managing dependencies.
+ -
+
