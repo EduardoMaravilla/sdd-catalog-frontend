@@ -9,7 +9,7 @@ import { FC, FormEvent, useState } from "react";
 import {
   isApiResponseError,
   isAuthenticationResponse,
-} from "../utilities/funcionExport";
+} from "../utils/funcionExport";
 import HReCaptchaComponent from "../components/utils/HReCaptchaComponent";
 import SpinnerComponent from "../components/utils/SpinnerComponent";
 import { SuccessfulModal } from "../components/modals-components/SuccessfulModal";

@@ -12,7 +12,7 @@ import { FC, FormEvent, useState } from "react";
 import {
   isApiResponseError,
   isValidTokenResponse,
-} from "../utilities/funcionExport";
+} from "../utils/funcionExport";
 import { useAuth } from "../context/auth/useAuth";
 import { AuthenticationContext } from "../context/auth/AuthenticationContext";
 import HReCaptchaComponent from "../components/utils/HReCaptchaComponent";

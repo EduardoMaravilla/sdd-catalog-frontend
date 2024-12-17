@@ -51,9 +51,7 @@ This project is a web application built using **React**, **Vite**, **TypeScript*
 - [📦 Prerequisites](#-prerequisites)
 - [🚀 Installation](#-installation)
 - [⚙️ Configuration](#-configuration)
-- [📚 API Usage](#-api-usage)
 - [🗂 Project Structure](#-project-structure)
-- [📡 Main Endpoints](#-main-endpoints)
 - [🛠️ Technologies Used](#-technologies-used)
 - [👎 License](#-license)
 - [📞 Contact](#-contact)
@@ -65,5 +63,70 @@ This project is a web application built using **React**, **Vite**, **TypeScript*
  Before setting up the project, ensure that you have the following software installed:
  - **Node.js** (LTS version recommended): [Download Node.js](https://nodejs.org/en)
  - **npm** or **Yarn**: Used for managing dependencies.
- -
 
+ ---
+
+## ⚙️ **Configuration**
+
+Install the dependencies using npm or Yarn:
+```
+npm install
+or
+yarn install
+```
+
+After installing the dependencies, you can start the development server using Vite.
+
+```
+npm run dev
+# or
+yarn dev
+```
+The application will be available at `http://localhost:5173`.
+
+## 🗂 **Project Structure**
+
+```
+/public              # Static files (images, icons, etc.)
+/src                 # Source code
+  /assets            # Assets like images, fonts, etc.
+  /components        # React components
+  /context           # Variables for context and shared for all components
+  /hooks             # Custom hooks
+  /languages         # Different languages for application
+  /pages             # React pages
+  /services          # API services and utils
+  /types             # TypeScript types and interfaces
+  /utils             # TypeScript functions
+  App.tsx            # Main entry point of the app
+  main.tsx          # Main rendering file
+  vite-env.d.ts      # Environment variables configuration
+/vite.config.ts      # Vite configuration
+/tsconfig.json       # TypeScript configuration
+/package.json        # Project dependencies and scripts
+```
+
+---
+
+## 🛠️ **Technologies Used**
+
+- **React**
+- **React Router Dom**
+- **Typescript**
+- **Javascript**
+- **SWC**
+- **Bootstrap**
+- **React Bootstrap**  
+- **HCaptcha**
+
+---
+
+## 👎 **License**
+
+[Apache License](LICENSE)
+
+---
+
+## 📞 **Contact**
+
+- **Email:** eduardomaravilladev@hotmail.com

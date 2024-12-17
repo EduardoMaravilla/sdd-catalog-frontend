@@ -12,7 +12,7 @@ import { useSearchParams } from "react-router-dom";
 import { useRacerValidateEmailService } from "../services/racer/useRacerValidateEmailService";
 import { useAuth } from "../context/auth/useAuth";
 import { AuthenticationContext } from "../context/auth/AuthenticationContext";
-import { isApiResponseError } from "../utilities/funcionExport";
+import { isApiResponseError } from "../utils/funcionExport";
 import { NewUserProfileResponse } from "../types/TypeConctact";
 import { useLoadProfileData } from "../context/profile-data/useLoadProfileData";
 import { LoadProfileDataContext } from "../context/profile-data/LoadProfileDataContext";

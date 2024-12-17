@@ -16,7 +16,7 @@ import {
   isApiResponseError,
   isValidEmail,
   isValidStringLength,
-} from "../utilities/funcionExport";
+} from "../utils/funcionExport";
 import { useRacerRegisterProfileService } from "../services/racer/useRacerRegisterProfileService";
 import { useAuth } from "../context/auth/useAuth";
 import { AuthenticationContext } from "../context/auth/AuthenticationContext";

@@ -2,7 +2,7 @@ import HCaptcha from "@hcaptcha/react-hcaptcha";
 import { FC, useRef } from "react";
 import { Form } from "react-bootstrap";
 import { useRacerValidateReCaptchaService } from "../../services/racer/useRacerValidateReCaptchaService";
-import { isApiResponseError } from "../../utilities/funcionExport";
+import { isApiResponseError } from "../../utils/funcionExport";
 import { ValidTokenResponse } from "../../types/TypesUserLogin";
 
 type HReCaptchaComponentProps = {

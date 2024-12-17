@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Button, Modal } from "react-bootstrap";
 import { CarConfigurationDto } from "../../types/TypeCars";
 import CreateBuildPage from "../../pages/CreateBuildPage";
-import { getBackgroundForPath } from "../../utilities/funcionExport";
+import { getBackgroundForPath } from "../../utils/funcionExport";
 import useCurrentPath from "../../hooks/useCurrentPath";
 
 interface SeeConfigModalProps {

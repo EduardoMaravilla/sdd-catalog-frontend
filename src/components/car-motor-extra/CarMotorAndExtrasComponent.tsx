@@ -13,7 +13,7 @@ import {
   getColorLevel,
   isApiResponseError,
   isValidTokenResponse,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport.ts";
 import { useAuth } from "../../context/auth/useAuth";
 import { AuthenticationContext } from "../../context/auth/AuthenticationContext";
 import { useSaveRacerCarService } from "../../services/racer-car-configuration/useSaveRacerCarConfigService";

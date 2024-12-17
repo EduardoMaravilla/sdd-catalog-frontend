@@ -21,7 +21,7 @@ import { VerifyEmailPage } from "./pages/VerifyEmailPage";
 import UpdatePasswordPage from "./pages/UpdatePasswordPage";
 import useWindowSize from "./hooks/useWindowSize";
 import useCurrentPath from "./hooks/useCurrentPath";
-import { getBackgroundForPath } from "./utilities/funcionExport";
+import { getBackgroundForPath } from "./utils/funcionExport";
 import NavBarTop from "./components/nav-bar/NavBarTop";
 import SideBarLeft from "./components/nav-bar/SideBarLeft";
 import { useCarConfiguration } from "./context/config-car/useCarConfiguration";

@@ -9,7 +9,7 @@ import {
 } from "react-bootstrap";
 import {FC, FormEvent, useState} from "react";
 import { useForm } from "../hooks/useForm";
-import { isApiResponseError, isValidEmail } from "../utilities/funcionExport";
+import { isApiResponseError, isValidEmail } from "../utils/funcionExport";
 import { useRacerResetPasswordService } from "../services/racer/useRacerResetPasswordService";
 import { ValidTokenResponse } from "../types/TypesUserLogin";
 import HReCaptchaComponent from "../components/utils/HReCaptchaComponent";

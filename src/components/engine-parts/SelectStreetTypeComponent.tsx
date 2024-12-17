@@ -5,7 +5,7 @@ import {
   getColorLevel,
   translationLevels,
   translationStreetType,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport";
 import useWindowSize from "../../hooks/useWindowSize";
 
 type SelectStreetTypeComponentProps = {

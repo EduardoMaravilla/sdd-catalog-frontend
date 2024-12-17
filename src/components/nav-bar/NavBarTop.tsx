@@ -11,7 +11,7 @@ import useCurrentPath from "../../hooks/useCurrentPath";
 import {
   isApiResponseError,
   isLogoutResponse,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport.ts";
 import { initialCarConfiguration } from "../../types/TypeCars";
 import { LogoutSuccessful } from "../modals-components/LogoutSuccessfulModal.tsx";
 import { LogoutModal } from "../modals-components/LogoutModal";

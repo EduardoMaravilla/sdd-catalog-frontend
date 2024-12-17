@@ -14,7 +14,7 @@ import { useForm } from "../hooks/useForm";
 import {
   getPasswordValidationIssues,
   isApiResponseError
-} from "../utilities/funcionExport";
+} from "../utils/funcionExport";
 import { UpdatePasswordRequest } from "../types/TypeConctact";
 import { useRacerUpdatePasswordService } from "../services/racer/useRacerUpdatePasswordService";
 import { useSearchParams } from "react-router-dom";

@@ -3,7 +3,7 @@ import { Form } from "react-bootstrap";
 import {
   getColorLevel,
   translationLevels,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport";
 import { useLoadBasicData } from "../../context/load-basic-data/useLoadBasicData";
 import { LoadBasicDataContext } from "../../context/load-basic-data/LoadBasicDataContext";
 

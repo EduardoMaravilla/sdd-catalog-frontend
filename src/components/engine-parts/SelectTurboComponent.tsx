@@ -5,7 +5,7 @@ import {
   getColorLevel,
   translationLevels,
   translationTurboType,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport";
 import useWindowSize from "../../hooks/useWindowSize";
 
 type SelectTurboComponentProps = {

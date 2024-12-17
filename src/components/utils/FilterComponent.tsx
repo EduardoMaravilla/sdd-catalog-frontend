@@ -15,7 +15,7 @@ import {
   translationLevels,
   translationStreetType,
   translationTurboType,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport";
 import useCurrentPath from "../../hooks/useCurrentPath";
 
 type FilterComponentProps = {

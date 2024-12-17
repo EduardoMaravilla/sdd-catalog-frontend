@@ -6,7 +6,7 @@ import {
   getPasswordValidationIssues,
   isApiResponseError,
   isNewUserProfileResponse
-} from "../../utilities/funcionExport.ts";
+} from "../../utils/funcionExport.ts";
 import {
   AllState,
   NewUpdatePasswordRequest,

@@ -22,7 +22,7 @@ import { useGetAllCarsWithFilterService } from "../services/racer-car-configurat
 import {
   isApiResponseError,
   loadDataFromLocalStorage,
-} from "../utilities/funcionExport";
+} from "../utils/funcionExport";
 import { BuildConfigComponent } from "../components/utils/BuildConfigComponent";
 import { useCarConfiguration } from "../context/config-car/useCarConfiguration";
 import { CarConfigurationContext } from "../context/config-car/CarConfigurationContext";

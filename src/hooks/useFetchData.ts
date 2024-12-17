@@ -1,5 +1,5 @@
 import { FetchState } from "../types/TypeFetch";
-import {  getTokenJwt } from "../utilities/funcionExport";
+import {  getTokenJwt } from "../utils/funcionExport";
 
 export const useFetchData = <T>(url: string, options: RequestInit = {}) => {
 

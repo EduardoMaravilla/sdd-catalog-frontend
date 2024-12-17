@@ -4,7 +4,7 @@ import { FC } from "react";
 import {
   getColorLevel,
   translationLevels,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport";
 import useWindowSize from "../../hooks/useWindowSize";
 
 type SelectAuxiliaryComponentProps = {

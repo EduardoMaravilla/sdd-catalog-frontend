@@ -8,7 +8,7 @@ import {
   isApiResponseError,
   isUserProfileResponse,
   loadDataFromLocalStorage,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport";
 import { CarConfigurationDto } from "../../types/TypeCars";
 import { useGetAllRacerCarService } from "../../services/racer-car-configuration/useGetAllRacerCarService";
 

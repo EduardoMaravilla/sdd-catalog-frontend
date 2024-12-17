@@ -1,7 +1,7 @@
 import {FC, ReactNode, useEffect, useMemo, useState} from "react";
 import { CarConfigurationDto, initialCarConfiguration } from "../../types/TypeCars";
 import { CarConfigurationContext } from "./CarConfigurationContext";
-import { loadDataFromLocalStorage } from "../../utilities/funcionExport";
+import { loadDataFromLocalStorage } from "../../utils/funcionExport";
 
 export const CarConfigurationProvider: FC<{ children: ReactNode }> = ({
   children,

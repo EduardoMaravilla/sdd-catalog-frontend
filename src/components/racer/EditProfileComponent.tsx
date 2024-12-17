@@ -10,7 +10,7 @@ import {FC, FormEvent, useEffect } from "react";
 import {AllState, UserEditProfileRequest} from "../../types/TypeConctact.ts";
 import {useForm} from "../../hooks/useForm.ts";
 import {useRacerUpdateProfileService} from "../../services/racer/useRacerUpdateProfileService.ts";
-import {isApiResponseError, isNewUserProfileResponse} from "../../utilities/funcionExport.ts";
+import {isApiResponseError, isNewUserProfileResponse} from "../../utils/funcionExport.ts";
 
 
 interface EditProfileComponentProps {

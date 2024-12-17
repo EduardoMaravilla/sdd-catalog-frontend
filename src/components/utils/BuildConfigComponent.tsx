@@ -11,7 +11,7 @@ import { AuthenticationContext } from "../../context/auth/AuthenticationContext"
 import {
   isApiResponseError,
   isValidTokenResponse,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport.ts";
 import { ErrorModal } from "../modals-components/ErrorModal";
 import { SuccessfulModal } from "../modals-components/SuccessfulModal.tsx";
 import { useGetAllRacerCarService } from "../../services/racer-car-configuration/useGetAllRacerCarService";

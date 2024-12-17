@@ -5,7 +5,7 @@ import {
     getTokenJwt,
     isApiResponseError,
     isValidTokenResponse,
-} from "../../utilities/funcionExport";
+} from "../../utils/funcionExport";
 import {useAuthValidTokenService} from "../../services/auth/useAuthValidTokenService";
 
 export const AuthenticationProvider: FC<{
